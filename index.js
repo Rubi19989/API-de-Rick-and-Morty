@@ -22,11 +22,11 @@ const dibujarCards = (results) => {
                 <img src="${results[i].image}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${results[i].name}</h5>
-                    <p class="card-text ">
+                    <p class="card-text">
                     <br>
                     Gender:  ${results[i].gender}
-                    <br>
                     Status:  ${results[i].status}
+                    <br>
                     <br>
                     Species:  ${results[i].species}
                     <br>
