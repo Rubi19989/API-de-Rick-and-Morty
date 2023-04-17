@@ -17,18 +17,18 @@ const dibujarCards = (results) => {
     for(i=0; i < results.length; i++)
     {
         let card = `
-        <div class="col-4 mb-3">
-            <div class="card c bg-dark bg-opacity-10 text-light text-center" style="width: 18rem;">
+        <div class="col-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-3 sobre">
+            <div class="card  bg-dark bg-opacity-10 text-light text-center" style="width: 18rem;">
                 <img src="${results[i].image}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${results[i].name}</h5>
                     <p class="card-text ">
                     <br>
-                    Species:  ${results[i].species}
-                    <br>
                     Gender:  ${results[i].gender}
                     <br>
                     Status:  ${results[i].status}
+                    <br>
+                    Species:  ${results[i].species}
                     <br>
                     Dimension:  ${results[i].origin.name}</p>
                 </div>
